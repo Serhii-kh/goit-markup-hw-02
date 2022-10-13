@@ -1,0 +1,150 @@
+body {
+  width: 1600px;
+}
+main {
+  font-family: "Roboto";
+  font-style: normal;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio-head {
+  color: #000000;
+}
+.main-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.logo-studio-footer {
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #2196f3;
+}
+.head-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.head-contacts a:hover,
+.head-contacts a:focus {
+  color: #2196f3;
+}
+
+.hero-section {
+  /* width: 1600px; */
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+.hero-button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.peculiarities h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.peculiarities p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+h2 {
+ font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  background: #2f303a;
+}
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+
