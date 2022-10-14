@@ -160,3 +160,7 @@ h2 {
   background-color: #2196f3;
   color: #ffffff;
 }
+.button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
