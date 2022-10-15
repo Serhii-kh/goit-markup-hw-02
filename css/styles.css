@@ -1,6 +1,7 @@
 :root {
   --focus-color: #2196f3;
 }
+
 body {
   width: 1600px;
 }
@@ -136,10 +137,6 @@ h2 {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
   background: #2f303a;
 }
 
@@ -160,3 +157,13 @@ h2 {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-div ul {
+	display: flex;
+	margin: 185px 215px 95px 215px;
+}
+
