@@ -1,6 +1,10 @@
+:root {
+  --focus-color: #2196f3;
+}
 body {
   width: 1600px;
 }
+
 main,
 .footer-address,
 .footer-link {
@@ -27,7 +31,7 @@ h1 {
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--focus-color);
 }
 
 .logo-studio-head {
@@ -39,7 +43,6 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  text-decoration: none;
 }
 .logo-studio-footer {
   font-weight: 700;
@@ -51,20 +54,15 @@ h1 {
 
 .main-nav a:hover,
 .main-nav a:focus {
-  color: #2196f3;
+  color: var(--focus-color);
 }
-.head-contacts a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
+a {
   text-decoration: none;
 }
 
 .contacts:hover,
 .contacts:focus {
-  color: #2196f3;
+  color: var(--focus-color);
 }
 .contacts {
   font-weight: 500;
@@ -72,7 +70,6 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
 }
 .hero-section {
   height: 600px;
@@ -86,7 +83,7 @@ h1 {
   height: 50px;
   left: 692px;
   top: 430px;
-  background: #2196f3;
+  background: var(--focus-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -124,8 +121,6 @@ h2 {
   color: #212121;
 }
 
-.team {
-}
 .team p {
   font-weight: 400;
   font-size: 16px;
@@ -155,9 +150,10 @@ h2 {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.nav-button button:hover,
-.nav-button button:focus {
-  background-color: #2196f3;
+
+.nav-buttons button:hover,
+.nav-buttons button:focus {
+  background-color: var(--focus-color);
   color: #ffffff;
 }
 .button {
