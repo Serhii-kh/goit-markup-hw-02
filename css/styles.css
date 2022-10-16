@@ -1,16 +1,24 @@
 :root {
   --focus-color: #2196f3;
+	--main-color:  #212121;
+	--fone-color: #757575;
+	--main-bg-color: #ffffff;
 }
 
 body {
+	font-family: 'Roboto';
+  font-style: normal;
   width: 1600px;
+	color: var(--main-color);
 }
 
-main,
 .footer-address,
 .footer-link {
   font-family: 'Roboto';
   font-style: normal;
+}
+ul {
+	list-style: none;
 }
 h1 {
   font-weight: 900;
@@ -19,7 +27,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-bg-color)
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -43,14 +51,14 @@ h1 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .logo-studio-footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-bg-color);
 }
 
 .main-nav a:hover,
@@ -70,7 +78,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-color);
 }
 .hero-section {
   height: 600px;
@@ -96,7 +104,7 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-bg-color);
 }
 .peculiarities h3 {
   font-weight: 700;
@@ -104,14 +112,13 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 .peculiarities p {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fone-color);
 }
 h2 {
   font-weight: 700;
@@ -119,7 +126,6 @@ h2 {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team p {
@@ -127,7 +133,7 @@ h2 {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--fone-color);
 }
 .footer-link {
   font-weight: 400;
@@ -135,6 +141,10 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--focus-color);
 }
 .footer {
   background: #2f303a;
@@ -145,13 +155,16 @@ h2 {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-bg-color);
 }
-
+.footer-address:hover,
+.footer-address:focus {
+	color: var(--focus-color);
+}
 .nav-buttons button:hover,
 .nav-buttons button:focus {
   background-color: var(--focus-color);
-  color: #ffffff;
+  color: var(--main-bg-color);
 }
 .button {
   background: #f5f4fa;
