@@ -1,33 +1,28 @@
 :root {
   --focus-color: #2196f3;
-	--main-color:  #212121;
-	--fone-color: #757575;
-	--main-bg-color: #ffffff;
+  --main-color: #212121;
+  --fone-color: #757575;
+  --main-bg-color: #ffffff;
 }
 
 body {
-	font-family: 'Roboto';
-  font-style: normal;
-  width: 1600px;
-	color: var(--main-color);
-}
-
-.footer-address,
-.footer-link {
   font-family: 'Roboto';
   font-style: normal;
+  color: var(--main-color);
+	letter-spacing: 0.03em;
 }
+
 ul {
-	list-style: none;
+  list-style: none;
 }
 h1 {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-bg-color)
+  color: var(--main-bg-color);
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -35,8 +30,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   text-decoration: none;
 }
 .logo-web {
@@ -56,8 +50,7 @@ h1 {
 .logo-studio-footer {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   color: var(--main-bg-color);
 }
 
@@ -106,45 +99,49 @@ a {
   letter-spacing: 0.06em;
   color: var(--main-bg-color);
 }
+.button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .peculiarities h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .peculiarities p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   color: var(--fone-color);
 }
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: #f5f4fa;
 }
 
 .team p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1875;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
   color: var(--fone-color);
 }
+
 .footer-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
 .footer-link:focus {
-	color: var(--focus-color);
+  color: var(--focus-color);
 }
 .footer {
   background: #2f303a;
@@ -154,29 +151,20 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--main-bg-color);
 }
 .footer-address:hover,
 .footer-address:focus {
-	color: var(--focus-color);
+  color: var(--focus-color);
 }
 .nav-buttons button:hover,
 .nav-buttons button:focus {
   background-color: var(--focus-color);
   color: var(--main-bg-color);
 }
-.button {
-  background: #f5f4fa;
-  border-radius: 4px;
-}
 
-.team {
-  background-color: #f5f4fa;
+.footer-address,
+.footer-link {
+  font-family: 'Roboto';
+  font-style: normal;
 }
-
-.team-div ul {
-	display: flex;
-	margin: 185px 215px 95px 215px;
-}
-
