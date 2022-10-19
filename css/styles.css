@@ -19,8 +19,6 @@ ul {
 
 p {
   color: var(--fone-color);
-  line-height: 1.2;
-
 }
 
 a {
@@ -144,11 +142,16 @@ h2 {
 }
 
 .team {
+  line-height: 1.2;
   background-color: #f5f4fa;
 }
 
-.team p {
+.team p,
+.team h3 {
   font-size: 16px;
+}
+.team h3 {
+  font-weight: 500;
 }
 
 .portfolio-section h3 {
