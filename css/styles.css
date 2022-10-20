@@ -13,19 +13,33 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
+.main-nav-list,
+.contacts-list,
+.peculiarities-list,
+.our-work-list,
+.team-list,
+.address-list,
+.nav-buttons-list,
+.portfolio-list {
   list-style: none;
 }
 
-p {
+.peculiarities-discription,
+.team-list-discription,
+.portfolio-discription {
   color: var(--fone-color);
 }
 
-a {
+.logo,
+.main-nav-link,
+.contacts,
+.footer-link,
+.portfolio-list-link {
   text-decoration: none;
 }
 
-h2 {
+.team-title,
+.our-work-title {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -59,7 +73,7 @@ h2 {
   color: var(--focus-color);
 }
 
-.main-nav a {
+.main-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,8 +81,8 @@ h2 {
   color: var(--main-color);
 }
 
-.main-nav a:hover,
-.main-nav a:focus {
+.main-nav-link:hover,
+.main-nav-link:focus {
   color: var(--focus-color);
 }
 
@@ -107,13 +121,13 @@ h2 {
   cursor: pointer;
 }
 
-.peculiarities h3 {
+.peculiarities-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.peculiarities p {
+.peculiarities-discription {
   font-size: 14px;
   line-height: 1.7;
 }
@@ -135,20 +149,22 @@ h2 {
   background-color: #f5f4fa;
 }
 
-.team p,
-.team h3 {
+.team-list-discription,
+.team-list-title {
   font-size: 16px;
 }
-.team h3 {
+.team-list-title {
   font-weight: 500;
 }
 
-.portfolio-section h3 {
+.portfolio-list-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+	color: var(--main-color);
 }
-.portfolio-section p {
+
+.portfolio-discription {
   line-height: 1.875;
 }
 
@@ -156,9 +172,6 @@ h2 {
   background: #2f303a;
 }
 
-.footer-link {
-  color: rgba(255, 255, 255, 0.6);
-}
 
 .footer-link:hover,
 .footer-link:focus {
@@ -176,6 +189,7 @@ h2 {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address,
