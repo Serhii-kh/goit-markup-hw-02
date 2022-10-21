@@ -13,8 +13,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+
 .list {
   list-style: none;
+}
+
+.visually-hidden {
+ position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .peculiarities-discription,
@@ -77,6 +91,10 @@ body {
 .main-nav-link:hover,
 .main-nav-link:focus {
   color: var(--focus-color);
+}
+
+.main-nav .main-nav-link.current{
+color: var(--focus-color);
 }
 
 .hero-section {
